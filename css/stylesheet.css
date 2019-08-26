@@ -24,9 +24,38 @@ body{
 
 
 
-/* add your code here */
+/* Start Donation */
 
 
+#myForm1 ,#myForm2
+{
+    color: #AAA;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: none;
+    
+}
+
+
+
+#myBtn1 ,#myBtn2
+{
+    width:100%;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+
+
+.btn
+{
+    background-color: red;
+    color: #FFF;
+}
+
+/* Start Donation */
 
 
 /* footer section */
