@@ -1,0 +1,67 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.clr{
+    clear:both;
+    width:0px;
+}
+body{
+    font-family:'segoe ui light';
+}
+/* nav bar section */
+.navbar{
+    border-bottom:3px solid #FF4D4D !important; 
+}
+.logo{
+    height:70px;
+    width:70px;
+}
+
+/* nav bar section */
+
+
+
+
+/* add your code here */
+
+
+
+
+/* footer section */
+
+.footer-area
+{
+    text-align: center;
+    background-color:#333333;
+    color:white;
+    
+}
+
+.footer-area i
+{
+    font-size:15px;
+    padding:20px 6px;
+    transition:0.3;
+}
+.footer-area i:hover
+{
+    color:#ff305b;
+}
+.footer-area p
+{
+    padding:0px 0px 20px 0px;
+}
+
+.footer-area a 
+{
+    text-decoration:none;
+    color:#ff305b;
+    transition:0.3s;
+}
+.footer-area a:hover
+{
+    text-decoration:underline;
+}
+/* footer section */
