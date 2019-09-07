@@ -56,8 +56,35 @@ body{
 }
 
 /* Start Donation */
+/* events */
+.event1 h2
+{
+font-weight:bolder;
+position: relative;
+}
+.event1 h2::after
+{
+
+content: "";
+position: absolute;
+top:105%;
+left:0;
+width: 25%;
+border:solid;
+border-bottom:1px;
 
 
+
+border-color: #FF4D4D
+
+}
+/* pagebar */
+.pages-bar a
+{
+color: #FF4D4D;
+text-decoration: none;
+
+}
 /* footer section */
 
 .footer-area
