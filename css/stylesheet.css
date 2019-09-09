@@ -20,11 +20,20 @@ body{
 }
 
 /* nav bar section */
+/* image slider section 'mohamed fathy'*/
 
+.imageSlider{
+    height: 400px;
+}
 
+.test{
+    background-color: #FF4D4D;
+    border-top:100px solid black;
+    border-left:50px solid green;
+}
+/* image slider section 'mohamed fathy'*/
 
-
-/* Start Donation */
+/* Start Donation-hala */
 
 
 #myForm1 ,#myForm2
@@ -55,36 +64,97 @@ body{
     color: #FFF;
 }
 
-/* Start Donation */
-/* events */
-.event1 h2
+/* end Donation-hala */
+/* register  Code saleh */
+.caption
 {
-font-weight:bolder;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  width: 450px;
+  height: 320px;;
+  
+
+}
+
+.sitelogo
+{ 
+  width: 150px;
+  height: 80px;
+  border-radius: 10%;
+}
+
+
+.signinbtn 
+{ 
+    width: 700px;
+    height: 35px;
+    font-size: 15px;
+     
+}
+
+.all-icons
+{
+ color: #ff305b;
+} 
+
+.signinbtn2
+{
+    width: 450px;
+    height: 35px;
+
+}
+.New-Doner1
+{
+    margin-top: 54px;
+}
+
+.input-group
+{
+
+    width: 390px;
+}
+.Font1 
+{ margin-left: 15px;
+    font-size: 15.4px;
+    
+}
+.Font2
+{ margin-left: 15px;
+    font-size: 22px;
+} 
+h6
+{
 position: relative;
 }
-.event1 h2::after
+h6:after
 {
+    content: ".";
+    background-color: #ff2600;
+    width: 40%;
+    height: 2.5px;
+    position: absolute;
+    right: 63.3%;%;
+    color: #FFF;
+}
+h6:before
+{
+    content: ".";
+    background-color: #ff2600;
+    width: 40%;
+    height: 2.5px;
+    position: absolute;
+    left: 63.3%;
+    color: #FFF;
 
-content: "";
-position: absolute;
-top:105%;
-left:0;
-width: 25%;
-border:solid;
-border-bottom:1px;
-
-
-
-border-color: #FF4D4D
 
 }
-/* pagebar */
-.pages-bar a
-{
-color: #FF4D4D;
-text-decoration: none;
 
+.Link2
+{  
+    color: #333333!important; ;
 }
+/* register  Code saleh */
+
 /* footer section */
 
 .footer-area
