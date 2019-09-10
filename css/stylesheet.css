@@ -18,6 +18,9 @@ body{
     height:70px;
     width:70px;
 }
+.navclick button{
+    background-color: transparent;
+}
 
 /* nav bar section */
 /* image slider section 'mohamed fathy'*/
