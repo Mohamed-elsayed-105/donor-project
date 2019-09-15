@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparant border-bottom mx-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparant border-bottom mx-2 mb-5">
         <a class="navbar-brand" href="#"><img class="logo rounded" src="images/blood-donation-app-logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -17,26 +17,25 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item navclick active">
+                    <button class="nav-link border-0" href="index.html">Home <span class="sr-only">(current)</span></button>
+                </li>
+                <li class="nav-item navclick active">
+                    <button class="nav-link border-0" id="about">About <span class="sr-only">(current)</span></button>
+                </li>
+                <li class="nav-item navclick active">
+                    <button class="nav-link border-0" id="donate">Donate <span class="sr-only">(current)</span></button>
+                </li>
+                <li class="nav-item navclick active">
+                    <button class="nav-link border-0" id="activities">Activities <span class="sr-only">(current)</span></button>
+                </li>
+                <li class="nav-item navclick active">
+                    <button class="nav-link border-0" id="contact">Contact Us <span class="sr-only">(current)</span></button>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Donate <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Activities <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <button class="btn btn-warning ml-3">Log in</button>
+                    <button id="loginBtn" class="btn btn-warning ml-3">Log in</button>
                 </li>
             </ul>
-
         </div>
     </nav>
 
