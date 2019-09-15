@@ -15,9 +15,8 @@ $("#myBtn2").click(function(){
 
 let loginBtnA = document.getElementById('loginBtn');
 loginBtnA.onclick = function(){
-    document.getElementById('loginBtn').setAttribute("onclick","window.open('Saleh-index.html','_blank')");
-
-}
+    window.open('Saleh-index.html','_blank');
+};
 //login button
 // nav donate click
 
