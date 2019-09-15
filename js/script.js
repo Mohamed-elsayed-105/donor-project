@@ -30,4 +30,12 @@ navBtnA.onclick = function(){
 let actBtnA = document.getElementById('activities');
 actBtnA.onclick = function(){
     window.open('Ahmed-ibrahim-index.html','_self');
+
+// nav about click
+// nav about click
+let aboutBtnA = document.getElementById('about');
+aboutBtnA.onclick = function(){
+    window.open('Mohamed-adel-index.html','_self');
+
+
 };
