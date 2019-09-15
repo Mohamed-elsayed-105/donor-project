@@ -23,13 +23,11 @@ loginBtnA.onclick = function(){
 
 let navBtnA = document.getElementById('donate');
 navBtnA.onclick = function(){
-    document.getElementById('donate').setAttribute("onclick","window.open('hala-index.html','_blank')");
-
-}
+    window.open('hala-index.html','_self');
+};
 // nav donate click
 // nav activities click
 let actBtnA = document.getElementById('activities');
 actBtnA.onclick = function(){
-    document.getElementById('activities').setAttribute("onclick","window.open('Ahmed-ibrahim-index.html','_blank')");
-
-}
+    window.open('Ahmed-ibrahim-index.html','_self');
+};
