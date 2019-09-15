@@ -37,3 +37,7 @@ let aboutBtnA = document.getElementById('about');
 aboutBtnA.onclick = function(){
     window.open('Mohamed-adel-index.html','_self');
 };
+let homeBtnA = document.getElementById('home');
+homeBtnA.onclick = function(){
+    window.open('index.html','_self');
+};
